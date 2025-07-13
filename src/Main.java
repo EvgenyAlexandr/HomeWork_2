@@ -49,7 +49,7 @@ public class Main {
         // Задание 7
         System.out.println("\nОтвет на задание 7");
         System.out.println("Остаток от деления между 2 весами = " + (Boxer2 % Boxer1) );
-   
+
     }
 
     // Отображаем ответ на задание
@@ -59,6 +59,7 @@ public class Main {
         System.out.println("dog = " + dog);
         System.out.println("cat = " + cat);
         System.out.println("paper = " + paper);
+
     }
 }
 
