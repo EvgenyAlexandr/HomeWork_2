@@ -40,6 +40,7 @@ public class Main {
 
         System.out.println("На каждого ученика расчитано " + 480 / (teacher1 + teacher2 + teacher3) + " листов бумаги.");
 
+
         // Задание 4 - Задача - Производительность машины.
         System.out.println("\nЗадача 4");
         short proizvoditelnoct = 16 / 2; // Производительность в минуту
@@ -64,6 +65,7 @@ public class Main {
         short symClasses = (short) (danokKracki_Total / (banokKracki_White + banokKracki_Brown));
         System.out.println("В школе, где " + symClasses + " классов, нужно " + banokKracki_White * symClasses + " шт банок Белой краски и " + banokKracki_Brown * symClasses +" шт банок Коричневой краски");
 
+
         // Задание 6 - Задача - Вес коктейля
         System.out.println("\nЗадача 6");
         short weightBanana     =  5 * 80;           // грамм. - 1 банан весин 80 грамм
@@ -75,6 +77,7 @@ public class Main {
         System.out.println("Вес коктейля составит " + weightCocktail + " грамм ");
         System.out.println("Вес коктейля составит " + (float) weightCocktail / 1000 + " кг ");
 
+
         // Задание 7 - Задача - Похудание
         System.out.println("\nЗадача 7");
         short deyWeighLoss250 = 7 * 1000 / 250;
@@ -83,6 +86,30 @@ public class Main {
         System.out.println("Если спортсмен будет худеть на 250грамм в день, то для того что бы сбросить 7 кг ему потребуется " + deyWeighLoss250 + " дней.");
         System.out.println("Если спортсмен будет худеть на 500грамм в день, то для того что бы сбросить 7 кг ему потребуется " + deyWeighLoss500 + " дней.");
         System.out.println("В среднем у спортсмена для того что бы сбросить 7 кг уйдет " + (short) ((deyWeighLoss250 + deyWeighLoss500) / 2) + " день.");
+
+
+        // Задание 8 - Задача - Повышение з/п
+        System.out.println("\nЗадача 8");
+        // Заработок - Был
+        float  finance_Masha    = 67760F; // руб/мес
+        float  finance_Denis    = 83690F; // руб/мес
+        float  finance_Kristina = 76230F; // руб/мес
+
+        System.out.println("Зароботок Маши     составлял " + finance_Masha + " руб");
+        System.out.println("Зароботок Денис    составлял " + finance_Denis + " руб");
+        System.out.println("Зароботок Кристина составлял " + finance_Kristina + " руб");
+
+        // Заработок - Стал
+        float  nuwFinance_Masha    = finance_Masha + (finance_Masha * 0.1F);        // руб/мес
+        float  nuwFinance_Denis    = finance_Denis + (finance_Denis * 0.1F);        // руб/мес
+        float  nuwFinance_Kristina = finance_Kristina + (finance_Kristina * 0.1F);  // руб/мес
+
+        System.out.println("\nТеперь Маша     будет получать " + nuwFinance_Masha + " руб. Её  годовой доход вырос на " + (float)((nuwFinance_Masha * 12)-(finance_Masha * 12)) + " рублей");
+        System.out.println("Теперь Денис    будет получать " + nuwFinance_Denis + " руб. Его годовой доход вырос на " + (float)((nuwFinance_Denis * 12)-(finance_Denis * 12)) + " рублей");
+        System.out.println("Теперь Кристина будет получать " + nuwFinance_Kristina + " руб. Её  годовой доход вырос на " + (float)((nuwFinance_Kristina * 12)-(finance_Kristina * 12)) + " рублей");
+
+
+
     }
 }
 
