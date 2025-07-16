@@ -57,11 +57,11 @@ public class Main {
 
         // Задание 5 - Задача - Ремонт школы, банки с краской.
         System.out.println("\nЗадача 5");
-        short danokKrackiVcego = 120; // шт. - Все банок краски.
+        short danokKracki_Total = 120; // шт. - Все банок краски.
         short banokKracki_White = 2; // шт. - Белой краски на класс
         short banokKracki_Brown = 4; // шт. - Коричневой краски на класс.
         // Находим количество классов
-        short symClasses = (short) (danokKrackiVcego / (banokKracki_White + banokKracki_Brown));
+        short symClasses = (short) (danokKracki_Total / (banokKracki_White + banokKracki_Brown));
         System.out.println("В школе, где " + symClasses + " классов, нужно " + banokKracki_White * symClasses + " шт банок Белой краски и " + banokKracki_Brown * symClasses +" шт банок Коричневой краски");
 
         // Задание 6 - Задача - Вес коктейля
@@ -75,6 +75,14 @@ public class Main {
         System.out.println("Вес коктейля составит " + weightCocktail + " грамм ");
         System.out.println("Вес коктейля составит " + (float) weightCocktail / 1000 + " кг ");
 
+        // Задание 7 - Задача - Похудание
+        System.out.println("\nЗадача 7");
+        short deyWeighLoss250 = 7 * 1000 / 250;
+        short deyWeighLoss500 = 7 * 1000 / 500;
+        short deyWeighLossAverage = (short) ((deyWeighLoss250 + deyWeighLoss500) / 2);
+        System.out.println("Если спортсмен будет худеть на 250грамм в день, то для того что бы сбросить 7 кг ему потребуется " + deyWeighLoss250 + " дней.");
+        System.out.println("Если спортсмен будет худеть на 500грамм в день, то для того что бы сбросить 7 кг ему потребуется " + deyWeighLoss500 + " дней.");
+        System.out.println("В среднем у спортсмена для того что бы сбросить 7 кг уйдет " + (short) ((deyWeighLoss250 + deyWeighLoss500) / 2) + " день.");
     }
 }
 
