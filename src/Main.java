@@ -1,64 +1,52 @@
 public class Main {
     public static void main(String[] args) {
+        // Переменные. Урок 2 - Д/з
 
-        // Задание 1
-        var dog = 8.0;
-        var cat = 3.6;
-        var paper = 763789;
-        PrintResult( 1,dog, cat, paper);
+        // Задание 1 - Объявление переменных
+        byte    valueByte   = 0;
+        short   valueShort  = 0;
+        int     valueInt    = 0;
+        long    valueLong   = 0L;
+        float   valueFloat  = 0.0F;
+        double  valueDouble = 0.0D;
 
-        // Задание 2
-        dog += 4;
-        cat += 4;
-        paper += 4;
-        PrintResult(2,dog, cat, paper);
+        System.out.println("Задача 1");
+        System.out.println("Значение переменной valueByte   с типом данных Byte   = " + valueByte);
+        System.out.println("Значение переменной valueShort  с типом данных Short  = " + valueShort);
+        System.out.println("Значение переменной valueInt    с типом данных Int    = " + valueInt );
+        System.out.println("Значение переменной valueLong   с типом данных Long   = " + valueLong);
+        System.out.println("Значение переменной valueFloat  с типом данных Float  = " + valueFloat);
+        System.out.println("Значение переменной valueDouble с типом данных Double = " + valueDouble);
 
-        // Задание 3
-        dog -= 3.5;
-        cat -= 1.6;
-        paper -= 7639;
-        PrintResult(3,dog, cat, paper);
 
-        // Задание 4
-        System.out.println("\nОтвет на задание 4");
-        var friend = 19;
-        System.out.println("friend = " + friend);
-        friend += 2;
-        System.out.println("friend = " + friend);
-        friend /= 7;
-        System.out.println("friend = " + friend);
+        // Задание 2 - Инициализация переменных
+        valueFloat      = 27.12F;
+        valueLong       = 987678965549L;
+        valueDouble     = 2.786;
+        valueInt        = 569;
+        valueShort      = -159;
+        int valueInt2   = 27897;
+        valueByte       = 67;
 
-        // Задание 5
-        System.out.println("\nОтвет на задание 5");
-        var frog = 3.5;
-        System.out.println("frog = " + frog);
-        frog *= 10;
-        System.out.println("frog = " + frog);
-        frog /= 3.5;
-        System.out.println("frog = " + frog);
-        frog += 4;
-        System.out.println("frog = " + frog);
+        System.out.println("\nЗадача 2");
+        System.out.println("Вывод значений не требуется условиями задания.");
 
-        // Задание 6
-        System.out.println("\nОтвет на задание 6");
-        var Boxer1 = 78.2;
-        var Boxer2 = 82.7;
-        System.out.println("Общая масса 2 бойцов = " + (Boxer1 + Boxer2 ) + "кг" );
-        System.out.println("Разница в весе между 2 бойцами = " + (Boxer1 - Boxer2 ) + "кг" );
 
-        // Задание 7
-        System.out.println("\nОтвет на задание 7");
-        System.out.println("Остаток от деления между 2 весами = " + (Boxer2 % Boxer1) );
+        // Задание 3 - Задача - Учителя
+        System.out.println("\nЗадача 3");
+        short teacher1 = 23; // ученика(оф) у Людмила Павловна
+        short teacher2 = 27; // ученика(оф) у АннаСергеевна
+        short teacher3 = 30; // ученика(оф) у ЕкатеринаАндреевна
 
-    }
+        System.out.println("На каждого ученика расчитано " + 480 / (teacher1 + teacher2 + teacher3) + " листов бумаги.");
 
-    // Отображаем ответ на задание
-    public static void PrintResult (int NomZad, double dog, double cat, int paper)
-    {
-        System.out.println("\nОтвет на задание " + NomZad);
-        System.out.println("dog = " + dog);
-        System.out.println("cat = " + cat);
-        System.out.println("paper = " + paper);
+        // Задание 4 - Задача - Производительность машины.
+
+
+
+
+
+
 
     }
 }
