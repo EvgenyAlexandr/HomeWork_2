@@ -64,7 +64,16 @@ public class Main {
         short symClasses = (short) (danokKrackiVcego / (banokKracki_White + banokKracki_Brown));
         System.out.println("В школе, где " + symClasses + " классов, нужно " + banokKracki_White * symClasses + " шт банок Белой краски и " + banokKracki_Brown * symClasses +" шт банок Коричневой краски");
 
+        // Задание 6 - Задача - Вес коктейля
+        System.out.println("\nЗадача 6");
+        short weightBanana     =  5 * 80;           // грамм. - 1 банан весин 80 грамм
+        short weightMilk       =  200 / 100 * 105;  // грамм. - 100 мл = 105 грамм
+        short weightIceCream   =  2 * 100;          // грамм. - 1 брикет 100 грамм
+        short weightEggs   =  4 * 70;           // грамм. - 1 яйцо 70 грамм
 
+        short weightCocktail = (short) (weightBanana + weightMilk + weightIceCream + weightEggs);
+        System.out.println("Вес коктейля составит " + weightCocktail + " грамм ");
+        System.out.println("Вес коктейля составит " + (float) weightCocktail / 1000 + " кг ");
 
     }
 }
