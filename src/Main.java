@@ -58,9 +58,9 @@ public class Main {
 
         // Задание 5 - Задача - Ремонт школы, банки с краской.
         System.out.println("\nЗадача 5");
-        short danokKracki_Total = 120; // шт. - Все банок краски.
-        short banokKracki_White = 2; // шт. - Белой краски на класс
-        short banokKracki_Brown = 4; // шт. - Коричневой краски на класс.
+        short danokKracki_Total = 120;
+        short banokKracki_White = 2;
+        short banokKracki_Brown = 4;
         // Находим количество классов
         short symClasses = (short) (danokKracki_Total / (banokKracki_White + banokKracki_Brown));
         System.out.println("В школе, где " + symClasses + " классов, нужно " + banokKracki_White * symClasses + " шт банок Белой краски и " + banokKracki_Brown * symClasses +" шт банок Коричневой краски");
@@ -68,10 +68,10 @@ public class Main {
 
         // Задание 6 - Задача - Вес коктейля
         System.out.println("\nЗадача 6");
-        short weightBanana     =  5 * 80;           // грамм. - 1 банан весин 80 грамм
-        short weightMilk       =  200 / 100 * 105;  // грамм. - 100 мл = 105 грамм
-        short weightIceCream   =  2 * 100;          // грамм. - 1 брикет 100 грамм
-        short weightEggs   =  4 * 70;           // грамм. - 1 яйцо 70 грамм
+        short weightBanana     =  5 * 80;
+        short weightMilk       =  200 / 100 * 105;
+        short weightIceCream   =  2 * 100;
+        short weightEggs       =  4 * 70;
 
         short weightCocktail = (short) (weightBanana + weightMilk + weightIceCream + weightEggs);
         System.out.println("Вес коктейля составит " + weightCocktail + " грамм ");
@@ -82,7 +82,6 @@ public class Main {
         System.out.println("\nЗадача 7");
         short deyWeighLoss250 = 7 * 1000 / 250;
         short deyWeighLoss500 = 7 * 1000 / 500;
-        short deyWeighLossAverage = (short) ((deyWeighLoss250 + deyWeighLoss500) / 2);
         System.out.println("Если спортсмен будет худеть на 250грамм в день, то для того что бы сбросить 7 кг ему потребуется " + deyWeighLoss250 + " дней.");
         System.out.println("Если спортсмен будет худеть на 500грамм в день, то для того что бы сбросить 7 кг ему потребуется " + deyWeighLoss500 + " дней.");
         System.out.println("В среднем у спортсмена для того что бы сбросить 7 кг уйдет " + (short) ((deyWeighLoss250 + deyWeighLoss500) / 2) + " день.");
@@ -91,18 +90,18 @@ public class Main {
         // Задание 8 - Задача - Повышение з/п
         System.out.println("\nЗадача 8");
         // Заработок - Был
-        float  finance_Masha    = 67760F; // руб/мес
-        float  finance_Denis    = 83690F; // руб/мес
-        float  finance_Kristina = 76230F; // руб/мес
+        float  finance_Masha    = 67760F;
+        float  finance_Denis    = 83690F;
+        float  finance_Kristina = 76230F;
 
         System.out.println("Зароботок Маши     составлял " + finance_Masha + " руб");
         System.out.println("Зароботок Денис    составлял " + finance_Denis + " руб");
         System.out.println("Зароботок Кристина составлял " + finance_Kristina + " руб");
 
         // Заработок - Стал
-        float  nuwFinance_Masha    = finance_Masha + (finance_Masha * 0.1F);        // руб/мес
-        float  nuwFinance_Denis    = finance_Denis + (finance_Denis * 0.1F);        // руб/мес
-        float  nuwFinance_Kristina = finance_Kristina + (finance_Kristina * 0.1F);  // руб/мес
+        float  nuwFinance_Masha    = finance_Masha + (finance_Masha * 0.1F);
+        float  nuwFinance_Denis    = finance_Denis + (finance_Denis * 0.1F);
+        float  nuwFinance_Kristina = finance_Kristina + (finance_Kristina * 0.1F);
 
         System.out.println("\nТеперь Маша     будет получать " + nuwFinance_Masha + " руб. Её  годовой доход вырос на " + (float)((nuwFinance_Masha * 12)-(finance_Masha * 12)) + " рублей");
         System.out.println("Теперь Денис    будет получать " + nuwFinance_Denis + " руб. Его годовой доход вырос на " + (float)((nuwFinance_Denis * 12)-(finance_Denis * 12)) + " рублей");
