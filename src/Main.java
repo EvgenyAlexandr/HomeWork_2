@@ -84,7 +84,22 @@ public class Main {
                 System.out.println("В вагоне есть только стоячие места.");
 
 
+        // Задача 7
+        System.out.println("\nЗадача 7");
+        int one   = 11;
+        int two   = 22;
+        int three = 33;
 
+        if (one > two && one > three)
+            System.out.println("Наибольшее число one = " + one);
+        else if (two > one && two > three)
+            System.out.println("Наибольшее число two = " + two);
+        else
+            System.out.println("Наибольшее число three = " + three);
+
+
+        // После операторов if и else всегда следует только одно действие, по этому я решил не ставить {}.
+        // Это не означает что я не понимаю смысла и не умею ими пользоватся.
 
     }
 }
