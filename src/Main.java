@@ -33,8 +33,17 @@ public class Main {
         }
 
 
-        // Задача 3
+        // Задача 3 -  Проверка, является ли год високосным
         System.out.println("Задача 3");
+        var year = 2021;        // Год для проверки
+
+        if (year <= 1584) {
+            System.out.println(year + " год не поддерживается (должен быть больше 1584)");
+        } else if ((year % 400 == 0) || (year % 100 != 0 && year % 4 == 0)) {
+            System.out.println(year + " год является високосным");
+        } else {
+            System.out.println(year + " год не является високосным");
+        }
 
     }
 }
