@@ -45,6 +45,7 @@ public class Main {
             System.out.println(year + " год не является високосным");
         }
 
+
         // Задача 4 - Время доставки
         System.out.println("\nЗадача 4");
         var deliveryDistance = 95;      // Дистанция до клиента
@@ -65,6 +66,7 @@ public class Main {
         } else {
             System.out.println("Доставка свыше 100 км невозможна");
         }
+
 
         // Задача 5 -  Проверка, является ли год високосным
         System.out.println("\nЗадача 5");
