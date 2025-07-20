@@ -59,7 +59,7 @@ public class Main {
         System.out.println("dog = " + dog);
         System.out.println("cat = " + cat);
         System.out.println("paper = " + paper);
-
+         
     }
 }
 
