@@ -28,8 +28,6 @@ public class Main {
             } else {
                 System.out.println("Установите версию приложения для Android по ссылке");
             }
-        } else {
-            System.out.println("Неизвестная операционная система");
         }
 
 
